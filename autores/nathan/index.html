@@ -6,12 +6,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
             <title>Autor: Nathan - Blog Aluguel Jogos Nintendo Switch</title>
         
-        <meta name="robots" content="noindex, follow" />
-        <meta name="generator" content="Publii Open-Source CMS for Static Site" />
+        <meta name="robots" content="noindex, follow">
+        <meta name="generator" content="Publii Open-Source CMS for Static Site">
 
         
         
-        <meta property="og:title" content="Nathan" /><meta property="og:site_name" content="Blog Aluguel Jogos Nintendo Switch" /><meta property="og:description" content="" /><meta property="og:url" content="https://blog.alugueljogosnintendoswitch.com.br/autores/nathan/" /><meta property="og:type" content="website" />
+        <meta property="og:title" content="Nathan"><meta property="og:site_name" content="Blog Aluguel Jogos Nintendo Switch"><meta property="og:description" content=""><meta property="og:url" content="https://blog.alugueljogosnintendoswitch.com.br/autores/nathan/"><meta property="og:type" content="website">
                 <link rel="next" href="https://blog.alugueljogosnintendoswitch.com.br/autores/nathan/pagina/2/">
         
         <link rel="stylesheet" href="https://blog.alugueljogosnintendoswitch.com.br/assets/css/style.css?v=ef6e58f296b197f86209b731d00feac9">       
@@ -45,9 +45,9 @@
       </div>
          <div class="l-grid l-grid--3 ">
                <article class="c-card ">
-                           <a href="https://blog.alugueljogosnintendoswitch.com.br/top-rides-para-acelerar-e-vencer-nos-games-de-corrida/" class="c-card__image">
+                           <a href="https://blog.alugueljogosnintendoswitch.com.br/a-dupla-lendaria-que-conquistou-o-mundo-dos-jogos/" class="c-card__image">
                               <img
-                                 src="https://blog.alugueljogosnintendoswitch.com.br/media/posts/134/top-rides-para-acelerar-e-vencer-nos-games-de-corrida.jpg"
+                                 src="https://blog.alugueljogosnintendoswitch.com.br/media/posts/136/a-dupla-lendaria-que-conquistou-o-mundo-dos-jogos.jpg"
                                  
                                  height="768"
                                  width="1280"
@@ -56,14 +56,14 @@
                   <div class="c-card__wrapper">
                      <header class="c-card__header">
                         <h2 class="c-card__title">
-                           <a href="https://blog.alugueljogosnintendoswitch.com.br/top-rides-para-acelerar-e-vencer-nos-games-de-corrida/" class="invert">
-                              Top rides para acelerar e vencer nos games de corrida
+                           <a href="https://blog.alugueljogosnintendoswitch.com.br/a-dupla-lendaria-que-conquistou-o-mundo-dos-jogos/" class="invert">
+                              A dupla lendária que conquistou o mundo dos jogos
                            </a>
                         </h2>
                      </header>
                         <footer class="c-card__meta">
-                              <time datetime="2026-05-03T22:43">
-                                    03/05/2026
+                              <time datetime="2026-05-08T23:28">
+                                    08/05/2026
                               </time>
                         </footer>
                   </div>
@@ -542,7 +542,7 @@
                             type="checkbox" 
                             data-group-name=""
                             id="pcb-group-0" 
-                            checked />
+                            checked>
                         <label for="pcb-group-0">Required</label>
                     </div>
                 </li>
@@ -900,7 +900,7 @@
             console.log('🍪 Allowed group: ' + allowedGroup);
         }
 
-        if (window.publiiCBGCM && cbConfig.initialLsState.indexOf(allowedGroup) === -1) {
+        if (window.publiiCBGCM && (!cbConfig.initialLsState || cbConfig.initialLsState.indexOf(allowedGroup) === -1)) {
             let consentResult = {};
             let group = window.publiiCBGCM.groups.find(group => group.cookieGroup === allowedGroup);
 

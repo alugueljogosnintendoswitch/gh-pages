@@ -7,11 +7,11 @@
             <title>Blog Aluguel Jogos Nintendo Switch</title>
         
         
-        <meta name="generator" content="Publii Open-Source CMS for Static Site" />
+        <meta name="generator" content="Publii Open-Source CMS for Static Site">
 
         <link rel="canonical" href="https://blog.alugueljogosnintendoswitch.com.br/pagina/2/">
         
-        <meta property="og:title" content="Blog Aluguel Jogos Nintendo Switch" /><meta property="og:site_name" content="Blog Aluguel Jogos Nintendo Switch" /><meta property="og:description" content="" /><meta property="og:url" content="https://blog.alugueljogosnintendoswitch.com.br/pagina/2/" /><meta property="og:type" content="website" />
+        <meta property="og:title" content="Blog Aluguel Jogos Nintendo Switch"><meta property="og:site_name" content="Blog Aluguel Jogos Nintendo Switch"><meta property="og:description" content=""><meta property="og:url" content="https://blog.alugueljogosnintendoswitch.com.br/pagina/2/"><meta property="og:type" content="website">
                 <link rel="prev" href="https://blog.alugueljogosnintendoswitch.com.br/">
         
         <link rel="stylesheet" href="https://blog.alugueljogosnintendoswitch.com.br/assets/css/style.css?v=ef6e58f296b197f86209b731d00feac9">       
@@ -39,8 +39,8 @@
             <div class="hero">
                <div class="hero__date">
                   Atualizado:
-                  <time datetime="2026-05-04T19:07">
-                        04/05/2026
+                  <time datetime="2026-05-08T23:29">
+                        08/05/2026
                   </time>
                </div>
                <h1>Blog sobre Aluguel Jogos Nintendo Switch</h1>
@@ -281,7 +281,7 @@
                             type="checkbox" 
                             data-group-name=""
                             id="pcb-group-0" 
-                            checked />
+                            checked>
                         <label for="pcb-group-0">Required</label>
                     </div>
                 </li>
@@ -639,7 +639,7 @@
             console.log('🍪 Allowed group: ' + allowedGroup);
         }
 
-        if (window.publiiCBGCM && cbConfig.initialLsState.indexOf(allowedGroup) === -1) {
+        if (window.publiiCBGCM && (!cbConfig.initialLsState || cbConfig.initialLsState.indexOf(allowedGroup) === -1)) {
             let consentResult = {};
             let group = window.publiiCBGCM.groups.find(group => group.cookieGroup === allowedGroup);
 
